@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For MUX74HC4067 #
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)                #
+#######################################
+
+MUX74HC4067	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)    #
+#######################################
+
+setChannel	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+signalPin	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)                #
+#######################################
+
+ANALOG	LITERAL1
+DIGITAL	LITERAL1
+DISABLED	LITERAL1
+ENABLED	LITERAL1
