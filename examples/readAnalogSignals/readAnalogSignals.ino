@@ -26,7 +26,7 @@ void setup()
 	mux.signalPin(A0, INPUT, ANALOG);
 }
 
-// It reads the 16 channels and reports on the serial monitor
+// Reads the 16 channels and reports on the serial monitor
 // the corresponding value read by the A/D converter
 void loop()
 {
@@ -39,8 +39,9 @@ void loop()
 
 		Serial.print("Potentiometer at channel ");
 		Serial.print(i);
-		Serial.print(" reports ");
-		Serial.println(data);
+		Serial.print(" is at ");
+		Serial.print((double)(data) * 100 / 1023);
+		Serial.println("%%");
 	}
 	Serial.println();
 	

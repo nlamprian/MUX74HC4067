@@ -26,7 +26,7 @@ void setup()
 	mux.signalPin(3, INPUT, DIGITAL);
 }
 
-// It reads the 16 channels and reports on the serial monitor
+// Reads the 16 channels and reports on the serial monitor
 // if the corresponding push button is pressed
 void loop()
 {
@@ -34,7 +34,7 @@ void loop()
 
 	for (byte i = 0; i < 16; ++i)
 	{
-		// Reads from channel i. Returns HIGH or LOW
+		// Reads from channel i and returns HIGH or LOW
 		data = mux.read(i);
 
 		Serial.print("Push button at channel ");

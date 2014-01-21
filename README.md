@@ -40,4 +40,4 @@ It writes to the requested channel. If the signal pin was set to `DIGITAL`, `dat
 Examples
 --------
 
-There are four accompanying examples with the library that demonstrate some very basic functionality.
+There are five accompanying examples with the library that demonstrate some basic functionality.

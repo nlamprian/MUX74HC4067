@@ -22,7 +22,7 @@ void setup()
 	mux.signalPin(5, OUTPUT, ANALOG);
 }
 
-// It writes to the 16 channels a PWM output, one after the other
+// Writes to the 16 channels a PWM output, one after the other
 // At each next channel, the duty cycle of the PWM increases
 void loop()
 {
@@ -30,7 +30,7 @@ void loop()
 	{
 		// Connects to channel i and outputs a PWM signal
 		mux.write(i, i * 16);
-		delay(100);
+		delay(200);
 	}
 	
 	mux.disable();  // Disconnects the SIG pin from any channel

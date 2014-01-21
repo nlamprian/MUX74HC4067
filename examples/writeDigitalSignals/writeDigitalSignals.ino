@@ -22,7 +22,7 @@ void setup()
 	mux.signalPin(3, OUTPUT, DIGITAL);
 }
 
-// It writes to the 16 channels a HIGH value, one after the other
+// Writes to the 16 channels a HIGH value, one after the other
 void loop()
 {
 	for (byte i = 0; i < 16; ++i)
