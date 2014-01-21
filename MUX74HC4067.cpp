@@ -95,7 +95,7 @@ void MUX74HC4067::signalPin(uint8_t sig, uint8_t mode, uint8_t type)
 	else if (type == DIGITAL ) signal_pin_status = 1;
 }
 
-// It reads from the signal pin
+// It reads from the configured or requested channel
 // If the signal pin was set to DIGITAL, it returns HIGH or LOW
 // If the signal pin was set to ANALOG, it returns the value read by the A/D converter
 // It the signal pin was not set earlier, it returns -1
