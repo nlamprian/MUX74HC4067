@@ -28,10 +28,10 @@ void loop()
 	for (byte i = 0; i < 16; ++i)
 	{
 		// Connects to channel i and writes HIGH
-		data = mux.write(i, HIGH);
-		delay(100);
+		mux.write(i, HIGH);
+		delay(25);
 	}
 	
 	mux.disable();  // Disconnects the SIG pin from any channel
-	delay(1500);
+	delay(800);
 }

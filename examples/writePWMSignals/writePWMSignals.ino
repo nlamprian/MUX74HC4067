@@ -17,9 +17,9 @@ MUX74HC4067 mux(7, 8, 9, 10, 11);
 void setup()
 {
 	// Configures how the SIG pin will be interfaced
-	// e.g. The SIG pin connects to PIN 5 on the Arduino,
-	//      and PIN 5 is a Analog (PWM) Output
-	mux.signalPin(5, OUTPUT, ANALOG);
+	// e.g. The SIG pin connects to PIN 3 on the Arduino,
+	//      and PIN 3 is a Analog (PWM) Output
+	mux.signalPin(3, OUTPUT, ANALOG);
 }
 
 // Writes to the 16 channels a PWM output, one after the other

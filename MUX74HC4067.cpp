@@ -84,7 +84,7 @@ void MUX74HC4067::signalPin(uint8_t sig, uint8_t mode, uint8_t type)
 	signal_pin = sig;
 
 	if ( mode == INPUT ) { signal_mode = INPUT;
-						   digitalWrite(sig, LOW);
+						   digitalWrite(sig, LOW);  // Disables pullup
 						   pinMode(sig, INPUT); }
 	else if ( mode == OUTPUT ) { signal_mode = OUTPUT;
 								 pinMode(sig, OUTPUT); }
