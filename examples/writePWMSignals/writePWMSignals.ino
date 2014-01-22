@@ -29,10 +29,10 @@ void loop()
 	for (byte i = 0; i < 16; ++i)
 	{
 		// Connects to channel i and outputs a PWM signal
-		mux.write(i, i * 16);
+		mux.write(i, i * 16 + 1);
 		delay(200);
 	}
 	
 	mux.disable();  // Disconnects the SIG pin from any channel
-	delay(1500);
+	delay(1000);
 }
