@@ -46,15 +46,16 @@ MUX74HC4067::MUX74HC4067(uint8_t en, int8_t s0, int8_t s1, int8_t s2, int8_t s3)
 //       connection of the channel to the SIG pin disabled or enable it
 void MUX74HC4067::setChannel(int8_t pin, uint8_t set)
 {
-	digitalWrite(enable_pin, HIGH);
+	disable();
+
 	current_channel = pin;
 	for (uint8_t i = 0; i < num_of_control_pins; ++i)
 	{
 		digitalWrite(control_pin[i], pin & 0x01);
 		pin >>= 1;
 	}
-	enable_status = ENABLED;
-	if ( set == ENABLED ) digitalWrite(enable_pin, LOW);
+
+	if ( set == ENABLED ) enable();
 }
 
 // Enables the connection of the SIG pin with a channel that was set earlier
