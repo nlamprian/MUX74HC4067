@@ -4,7 +4,7 @@
  * connected to the 16 channels of the 74HC4067 mux/demux, respectively
  * 
  * For more about the interface of the library go to
- * https://github.com/pAIgn10/MUX74HC4067
+ * https://github.com/nlamprian/MUX74HC4067
  */
 
 #include "MUX74HC4067.h"

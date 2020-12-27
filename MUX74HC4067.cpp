@@ -1,10 +1,10 @@
 /**
  * Name: MUX74HC4067
- * Author: Nick Lamprianidis { paign10.ln@gmail.com }
+ * Author: Nick Lamprianidis { nlamprian@gmail.com }
  * Version: 1.0
  * Description: A library for interfacing the 74HC4067 
  *				multiplexers/demultiplexers
- * Source: https://github.com/pAIgn10/MUX74HC4067
+ * Source: https://github.com/nlamprian/MUX74HC4067
  * License: Copyright (c) 2014 Nick Lamprianidis 
  *          This library is licensed under the MIT license
  *          http://www.opensource.org/licenses/mit-license.php

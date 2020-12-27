@@ -12,7 +12,7 @@
  * puts them in a high impedance state
  * 
  * For more about the interface of the library go to
- * https://github.com/pAIgn10/MUX74HC4067
+ * https://github.com/nlamprian/MUX74HC4067
  */
 
 #include "MUX74HC4067.h"

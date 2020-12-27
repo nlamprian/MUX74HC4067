@@ -3,7 +3,7 @@ MUX74HC4067
 
 This is an Arduino library for interfacing the 74HC4067 multiplexers/demultiplexers.
 
-![project](http://i859.photobucket.com/albums/ab154/lampnick67/project__zps392c7d63.png)
+![project](https://github.com/nlamprian/MUX74HC4067/wiki/assets/project.png)
 
 Interface
 ---------
